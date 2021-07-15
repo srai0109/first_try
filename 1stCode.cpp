@@ -1,4 +1,5 @@
-// C++ program to find GCD of two numbers
+//editing done
+
 #include <iostream>
 using namespace std;
 // Recursive function to return gcd of a and b
@@ -19,8 +20,6 @@ int gcd(int a, int b)
 		return gcd(a-b, b);
 	return gcd(a, b-a);
 }
-
-// Driver program to test above function
 int main()
 {
 	int a = 98, b = 56;
